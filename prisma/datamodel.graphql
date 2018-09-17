@@ -1,0 +1,15 @@
+type User {
+  id: ID! @unique
+  openKey: String
+  email: String! @unique
+  username: String! @unique
+  phone: String
+  firstname: String
+  lastname: String
+  birthdate: String
+  zipcode: Int
+  city: String
+  privateKey: String
+  country: String
+  currency: String
+}
